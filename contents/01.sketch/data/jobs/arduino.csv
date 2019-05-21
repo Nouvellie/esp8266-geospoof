@@ -1,2 +1,2 @@
 run,filepath,name,location,max_networks,rssi_min,rssi_max,channel_min,channel_max
-1,data/networks/gymvicunamackenna.json,GymVicunaMackenna,"Gym Vicuna Mackenna",15,-95,-25,0,50
+1,/home/ubuntu/Documents/nouvelliegit/esp8266-geospoof/contents/01.sketch/testingsketchbash.json,testingsketchbash,'testingsketchbash',15,-95,-25,0,50

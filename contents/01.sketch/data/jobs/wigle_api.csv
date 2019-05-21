@@ -1,2 +1,2 @@
 run,filepath,lat,lon,radius,since,comment
-1,data/networks/gymvicunamackenna.json,-33.441492, -70.644769,1,20180101,GymVicunaMackenna
+1,/home/ubuntu/Documents/nouvelliegit/esp8266-geospoof/contents/01.sketch/testingsketchbash.json,-33.456,-70.654,1,20180101,testingsketchbash
