@@ -1,0 +1,2 @@
+run,filepath,name,location,max_networks,rssi_min,rssi_max,channel_min,channel_max
+1,data/networks/gymvicunamackenna.json,GymVicunaMackenna,"Gym Vicuna Mackenna",15,-95,-25,0,50

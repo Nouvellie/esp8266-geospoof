@@ -1,0 +1,2 @@
+run,filepath,lat,lon,radius,since,comment
+1,data/networks/gymvicunamackenna.json,-33.441492, -70.644769,1,20180101,GymVicunaMackenna
