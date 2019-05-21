@@ -54,3 +54,9 @@ Open *ino* format and click *Verify*.
 ## To install custom .ino
 
 Open *ino* format and click *Upload*.
+
+## Give chmod to the device to avoid errors 
+
+```sh
+$ sudo chmod -R 777 /<dev>/<ttyUSB0>
+```
