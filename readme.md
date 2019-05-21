@@ -1,7 +1,7 @@
 # CONTENTS
 
 - [01. Sketch.](https://github.com/Nouvellie/esp8266-geospoof/tree/esp8266/contents/01.sketch)
-- [Arduino.](https://github.com/Nouvellie/ubuntu/blob/ubuntu/contents/anaconda.md)
+- [02. Arduino.](https://github.com/Nouvellie/esp8266-geospoof/blob/esp8266/contents/02.arduino/readme.md)
 
 ## ESP8266
 
