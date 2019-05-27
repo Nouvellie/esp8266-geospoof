@@ -19,9 +19,9 @@ sudo cp $(pwd)/arduino/demo/switches.h $(pwd)/arduino/${jsonname}/
 sudo cp $(pwd)/arduino/demo/wifi.h $(pwd)/arduino/${jsonname}/
 sudo chmod -R 777 $(pwd)/arduino/${jsonname}/
 source /opt/anaconda3/etc/profile.d/conda.sh
-conda activate sketch
+source activate sketch
 python3 $(pwd)/nouvellie/cli_jobs.py wigle_api --wigle_api_name AIDb7eb8cc431ffbbc4862ce116bcb19bf3 --wigle_api_key 3d3ab445c364455f13ab886eef37e0f3 --jobs $(pwd)/data/jobs/wigle_api.csv -f
 python3 $(pwd)/nouvellie/cli_jobs.py arduino --jobs $(pwd)/data/jobs/arduino.csv --sketch arduino/${jsonname}/
 sudo chmod -R 777 $(pwd)/arduino/${jsonname}/
-sudo chmod -R 777 /home/ubuntu/Documents/nouvelliegit/esp8266-geospoof/contents/01.sketch/${jsonname}.json
-sudo rm -rf /home/ubuntu/Documents/nouvelliegit/esp8266-geospoof/contents/01.sketch/${jsonname}.json
+sudo chmod -R 777 $(pwd)/${jsonname}.json
+sudo rm -rf $(pwd)/${jsonname}.json
